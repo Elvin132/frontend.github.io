@@ -83,12 +83,22 @@ nav li a:hover {
 #content {
     float: left;
     width: 75%;
+    text-align: justify;
 }
 
 aside {
     float: right;
     width: 25%;
     padding-left: 20px;
+}
+
+/* How to make web responsive */
+@media screen and (max-width: 1000px){
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+    
 }
 
 footer {
