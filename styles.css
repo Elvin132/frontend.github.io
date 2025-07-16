@@ -30,6 +30,14 @@ nav {
     background-color: #00a2c6;
     padding: 5px;
     border-radius:1px ;
+
+    /* how to make sticky position */
+    position: sticky;
+    top: 0; /*diperlukan agar elemen navigasi selalu berada di atas jendela browser saat user melakukan scrolling. */
+}
+
+header {
+    display: inline;
 }
 
 nav a {
